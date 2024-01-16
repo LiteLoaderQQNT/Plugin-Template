@@ -1,15 +1,17 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 4,
     "type": "extension",
     "name": "插件模板",
     "slug": "plugin_template",
     "description": "LiteLoaderQQNT的插件模板",
     "version": "0.1.0",
     "thumbnail": "./icon.png",
-    "author": {
-        "name": "LiteLoaderQQNT",
-        "link": "https://github.com/LiteLoaderQQNT"
-    },
+    "authors": [
+        {
+            "name": "LiteLoaderQQNT",
+            "link": "https://github.com/LiteLoaderQQNT"
+        }
+    ],
     "repository": {
         "repo": "LiteLoaderQQNT/LiteLoaderQQNT-Plugin-Template",
         "branch": "main",
