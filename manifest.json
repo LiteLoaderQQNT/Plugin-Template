@@ -23,7 +23,7 @@
         "preload": "./src/preload.js"
     },
     "repository": {
-        "repo": "LiteLoaderQQNT/LiteLoaderQQNT-Plugin-Template",
+        "repo": "LiteLoaderQQNT/Plugin-Template",
         "branch": "main",
         "release": {
             "tag": "0.1.0",
