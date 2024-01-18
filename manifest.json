@@ -27,7 +27,7 @@
         "branch": "main",
         "release": {
             "tag": "0.1.0",
-            "name": "Plugin-Template.zip"
+            "file": "Plugin-Template.zip"
         }
     }
 }
