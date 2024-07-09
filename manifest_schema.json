@@ -11,7 +11,7 @@
                 4
             ],
             "default": 4,
-            "title": "menifest文件版本",
+            "title": "Manifest 版本",
             "description": "当前版本为 4"
         },
         "type": {
@@ -25,11 +25,12 @@
         },
         "name": {
             "type": "string",
-            "title": "插件名字"
+            "title": "插件名称"
         },
         "slug": {
             "type": "string",
-            "title": "代码内标识"
+            "title": "插件标识",
+            "description": "此插件在代码内的唯一标识符"
         },
         "description": {
             "type": "string",
@@ -37,7 +38,7 @@
         },
         "icon": {
             "title": "插件图标",
-            "description": "写入相对路径字符串，也可以是 null",
+            "description": "请填写插件图标的相对路径或 null",
             "anyOf": [
                 {
                     "type": "string"
@@ -48,8 +49,8 @@
             ]
         },
         "thumb": {
-            "title": "设置选项图标",
-            "description": "写入相对路径字符串，也可以是 null",
+            "title": "插件小图标",
+            "description": "请填写插件小图标的相对路径或 null (展示在设置界面边栏)",
             "anyOf": [
                 {
                     "type": "string"
@@ -65,7 +66,7 @@
             "pattern": "^([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?(?:\\+[0-9A-Za-z-]+)?$"
         },
         "authors": {
-            "title": "作者们的信息",
+            "title": "作者们",
             "type": "array",
             "items": {
                 "type": "object",
@@ -87,8 +88,8 @@
             }
         },
         "dependencies": {
-            "title": "插件依赖项",
-            "description": "写入插件slug名",
+            "title": "插件依赖",
+            "description": "填写依赖的 slug",
             "type": "array",
             "items": {
                 "type": "string"
@@ -96,7 +97,7 @@
         },
         "platform": {
             "title": "插件支持的系统平台",
-            "description": " - Windows: win32 \n - Linux: linux \n - MacOS: darwin",
+            "description": "- Windows: win32 \n- Linux: linux \n- MacOS: darwin",
             "type": "array",
             "items": {
                 "type": "string",
@@ -132,6 +133,7 @@
             "properties": {
                 "repo": {
                     "title": "仓库短地址",
+                    "description": "<user>/<repo>",
                     "type": "string"
                 },
                 "branch": {
