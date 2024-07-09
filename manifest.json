@@ -4,7 +4,7 @@
     "type": "extension",
     "name": "插件模板",
     "slug": "plugin_template",
-    "description": "LiteLoaderQQNT的插件模板",
+    "description": "LiteLoaderQQNT 的插件模板",
     "version": "0.1.0",
     "icon": "./icon.png",
     "thumb": "./icon.svg",
