@@ -133,7 +133,7 @@
             "properties": {
                 "repo": {
                     "title": "仓库短地址",
-                    "description": "<user>/<repo>",
+                    "description": "GitHub 仓库地址，格式为 {user}/{repo}",
                     "type": "string"
                 },
                 "branch": {
