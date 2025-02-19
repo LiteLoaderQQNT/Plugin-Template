@@ -1,5 +1,5 @@
 {
-    "$schema": "./manifest_schema.json",
+    "$schema": "https://cdn.jsdelivr.net/gh/LiteLoaderQQNT/LiteLoaderQQNT@latest/manifest-zh.schema.json",
     "manifest_version": 4,
     "type": "extension",
     "name": "插件模板",
